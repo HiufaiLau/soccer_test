@@ -1,0 +1,127 @@
+/* General Layout for each page */
+/*main titel*/
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     margin-left: 10%;
+    margin-top:2%;
+}
+
+.item{
+    align-self: flex-start;
+    margin-left: 4%;
+    margin-top: 1%;
+}
+.item h1{
+    margin-top: 6%; 
+    color: #486684;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*2nd title of each pages*/
+h2{
+    color:#739bc3;
+}
+
+/* Homepage icon*/
+.icon{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.homePage{
+    margin-right: 13%;
+    margin-top: -5%;
+}
+.fa, .fas {
+    color: #4d5353;
+}
+
+
+/*images of each page*/
+img{
+    border-radius: 10px;
+    margin-top:1%;
+}
+
+
+/* bottom footer */
+footer{
+    width:1000px;
+    margin-top:1%;
+    margin-bottom: 2%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    flex-wrap:wrap;
+}
+
+
+/*Buttons*/
+.butt{
+    align-items: center;
+}
+.back{
+    margin-right: 50%;
+    margin-left:60%;
+    background-color: #879ba5 ;
+    font-family: cursive;
+    text-decoration: none;
+    color:#225f60;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.back a {
+    text-decoration: none;
+    color:#457374;
+}
+
+.back:hover{
+    background-color: #5ca9aa;
+    color:#c8d1d1;
+}
+
+.next{
+    /*margin-right: 2%;*/
+    margin-left:90%;
+    background-color: #879ba5 ;
+    font-family: cursive;
+    text-decoration: none;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+    color:#225f60;
+}
+.next a {
+    text-decoration: none;
+    color:#457374;
+}
+
+.next:hover{
+    background-color: #5ca9aa;
+    color:#c8d1d1;
+}
+
+
+/* Division Line for the title and footer */
+hr{
+    width: 1000px;
+    color:#608081;
+    border:0px;
+    background-color: #608081;
+    height: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+

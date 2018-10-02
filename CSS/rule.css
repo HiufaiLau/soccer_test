@@ -1,0 +1,32 @@
+/* rule page */
+ .scroll {
+    background-color: none;
+    width: 550px;
+    height: 230px;
+    overflow:auto;
+    margin-bottom: 1%;
+}
+
+
+.rule .dot{
+    list-style-type: square;
+}
+
+.rule .letter{
+    list-style-type: lower-alpha;
+}
+
+.rule .circle{
+    list-style-type: circle;
+}
+
+.rule{
+    width: 500px;
+}
+/*.mySlides{
+    width:600px; 
+    height:300px;
+    margin-left:10%;
+    
+}*/
+

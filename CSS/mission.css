@@ -1,0 +1,12 @@
+/* Mission Page*/
+.scroll {
+    background-color: none;
+    width: 550px;
+    height: 230px;
+    overflow:auto;
+    margin-bottom: 1%;
+}
+
+ul{
+    width: 450px;
+}

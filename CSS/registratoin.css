@@ -1,0 +1,217 @@
+/*Registration Page*/
+fieldset {
+    width:520px;
+    height:210px;
+    margin-right: 0%;
+    border-radius: 10px;
+    border-radius: 10px;
+     border-style: solid;
+    border-width: 2px;
+    border-color: #879ba5;
+}
+
+details{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+}
+
+.gender .item{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.birthday{
+    display: flex;
+    flex-direction: row;
+}
+
+.birthday .item{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.grade{
+    display: flex;
+    flex-direction: row;
+}
+
+.grade .item{
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.school{
+    display:flex;
+    flex-direction: column;
+}
+
+.school .item{
+    align-self: flex-start;
+}
+
+.school select{
+    width:160px;
+}
+
+form input{
+    margin-bottom: 1%;
+}
+
+.permission p {
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit span{
+    margin-left: 4%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border:none;
+    border-radius: 5px;
+    background-color: #196384;
+    color:#c2cacb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.submit span:hover{
+    background-color: cadetblue;
+}
+
+/*general structure*/
+.sidebar{
+    width: 1000px;
+    height: 320px;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.left{
+    align-items:flex-start;
+    margin-left: 1%;
+    margin-top:1%;
+}
+
+.content{
+    align-items:flex-end;
+    margin-left: 7%;
+    margin-top:1%; 
+}
+
+.content ul{
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.scroll {
+    background-color: none;
+    width: 520px;
+    height: 210px;
+    overflow:auto;
+    margin-bottom: 1%;
+    margin-right: 0%;
+    margin-left: 0%;
+}
+
+ul em{
+    color: #88ada3;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif; 
+    margin-bottom: 
+}
+
+#name{
+    width:220px;
+    margin-left: 3%;
+}
+
+#lastName{
+    width:220px;
+     margin-left: 3.3%;
+}
+
+#street {
+    width:300px;
+    margin-left: 2%;
+}
+
+#city{
+    width:300px;
+    margin-left: 8.5%;
+}
+
+#zipcode{
+    width:300px;
+    margin-left:1%;
+}
+#parent {
+    width:300px;
+}
+
+#email{
+    width:300px;
+    margin-left: 4.4%;
+}
+
+#tel {
+    width:300px;
+    margin-left:3.1%;
+}
+
+.info.date{
+    margin-left: 3%
+}
+
+#date {
+    width:130px;
+    margin-left: 2%
+}
+
+#sign {
+    width:200px;
+    margin-left: 2%;
+    margin-right: 6%;
+}
+
+.confirm {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+}
+
+/*Join button*/
+
+.submit {
+    
+}
+
+button {
+    background-color: #196384 ;
+    font-family: cursive;
+    text-decoration: none;
+    border: none;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+    color:#c2cacb;
+}
+
+button:hover{
+    background-color: #5595b2 ;
+}

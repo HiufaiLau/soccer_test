@@ -1,0 +1,84 @@
+/* Contact and Coordinator page */
+.content address {
+    font-size:15px;
+    text-decoration: none;
+    font-style: normal;
+    margin-right: 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;   
+}
+
+.email a{
+    font-family: cursive;
+    text-decoration: none;
+    color:#417b7c;
+}
+
+.email a:hover{
+    color:#879ba5;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type:none;
+    width: 450px;
+}
+
+/* general structure */
+.scroll {
+    background-color: none;
+    width: 550px;
+    height: 200px;
+    overflow:auto;
+    margin-bottom: 1%;
+}
+
+.content h2{
+    margin-bottom: 0%;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.schedule h4{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-family: 'Open Sans', sans-serif; 
+}
+.schedule p{
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 11px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+
+
+.sidebar{
+    width: 1000px;
+    height: 320px;
+    margin-left: 13%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+
+.left{
+    align-items:flex-start;
+    margin-left: 1%;
+    margin-top:1%;
+}
+
+.left img{
+    margin-top: 1%;
+}
+
+.content{
+    align-items:flex-end;
+    margin-left: 7%;
+    margin-top:1%; 
+}
+
+.content ul{
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
